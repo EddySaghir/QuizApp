@@ -2,6 +2,11 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+// Add this section
+project.ext.vectoricons = [
+    iconFontNames: ['Jersey25-Regular.ttf']
+]
+
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -102,11 +107,27 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    sourceSets {
+        main {
+            res.srcDirs += ['src/main/res/raw']
+        }
+    }
+    plugins {
+      id 'com.android.application'
+
+  // Add the Google services Gradle plugin
+      id 'com.google.gms.google-services'
+
+      ...
+    } 
+
 }
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation project(':react-native-sound')
+    implementation platform('com.google.firebase:firebase-bom:33.7.0')
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")

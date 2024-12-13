@@ -1,0 +1,181 @@
+.iphone-pro {
+    background-color: #25202091;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+   
+  .iphone-pro .div {
+    background-color: #25202091;
+    height: 874px;
+    position: relative;
+    width: 402px;
+  }
+   
+  .iphone-pro .overlap {
+    background-color: #6d6b85;
+    border-radius: 15px;
+    height: 65px;
+    left: 29px;
+    position: absolute;
+    top: 702px;
+    width: 344px;
+  }
+   
+  .iphone-pro .text-wrapper {
+    color: #ffffff;
+    font-family: "Jersey 25", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+  }
+   
+  .iphone-pro .football-american {
+    height: 57px;
+    left: 271px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 49px;
+  }
+   
+  .iphone-pro .overlap-group {
+    height: 85px;
+    left: 65px;
+    position: absolute;
+    top: 37px;
+    width: 295px;
+  }
+   
+  .iphone-pro .rectangle {
+    height: 85px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 272px;
+  }
+   
+  .iphone-pro .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Jersey 25", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 264px;
+  }
+   
+  .iphone-pro .ifbwingnwxogmhjozz {
+    height: 152px;
+    left: 53px;
+    object-fit: cover;
+    position: absolute;
+    top: 153px;
+    width: 296px;
+  }
+   
+  .iphone-pro .r {
+    height: 83px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 325px;
+    width: 112px;
+  }
+   
+  .iphone-pro .div-wrapper {
+    background-color: #c40c34;
+    border-radius: 15px;
+    height: 83px;
+    left: 140px;
+    position: absolute;
+    top: 328px;
+    width: 229px;
+  }
+   
+  .iphone-pro .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Jersey 25", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+  }
+   
+  .iphone-pro .usa-today {
+    height: 166px;
+    left: 43px;
+    object-fit: cover;
+    position: absolute;
+    top: 428px;
+    width: 317px;
+  }
+   
+  .iphone-pro .nfclogo {
+    height: 84px;
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 608px;
+    width: 113px;
+  }
+   
+  .iphone-pro .overlap-2 {
+    background-color: #344474;
+    border-radius: 15px;
+    height: 84px;
+    left: 140px;
+    position: absolute;
+    top: 608px;
+    width: 229px;
+  }
+   
+  .iphone-pro .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Jersey 25", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+  }
+   
+  .iphone-pro .overlap-3 {
+    background-image: url(https://c.animaapp.com/NnzXC44G/img/star-1.svg);
+    background-size: 100% 100%;
+    height: 90px;
+    left: 115px;
+    position: absolute;
+    top: 778px;
+    width: 172px;
+  }
+   
+  .iphone-pro .text-wrapper-5 {
+    color: #181801;
+    font-family: "Jersey 25", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 32px;
+    white-space: nowrap;
+  }
